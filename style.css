@@ -388,3 +388,42 @@ footer {
         font-size: 16px;
         padding: 16px 32px;
       }
+
+.container7 {
+  position: relative;
+  width: 100%;
+}
+      .senior3 {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+
+      .middle7 {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .container7:hover .senior3 {
+        opacity: 0.3;
+      }
+
+      .container7:hover .middle7 {
+        opacity: 1;
+      }
+
+      .text7 {
+        background-color: #ff9ec8;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
